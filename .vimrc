@@ -129,7 +129,7 @@
     set list                " display unprintable characters
     set wrap                " Включаем перенос строк (http://vimcasts.org/episodes/soft-wrapping-text/)
     if version >= 703
-        set colorcolumn=80 " Подсвечиваем 80 столбец
+        "set colorcolumn=80 " Подсвечиваем 80 столбец
     end
     set formatoptions-=o    " dont continue comments when pushing o/O
     set linebreak           " Перенос не разрывая слов
